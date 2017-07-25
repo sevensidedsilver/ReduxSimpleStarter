@@ -3,6 +3,7 @@ import React from 'react';
 // this is a functional component because it's a simple component
 
 const VideoDetail = ({video}) =>{
+  // if there's no video provided yet, it just renders loading...
   if(!video){
     return <div>Loading...</div>
   }
